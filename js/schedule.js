@@ -141,7 +141,7 @@ const aiops2nd_workshop = [
         "title": "AI使能网络自动驾驶 AI Building Autonomous Driving Network",
         "authors": "何玉宝 Yubao He",
         "institutions": "华为公司可服务性委员会 主任",
-        "slides_url": "files/2019/ai_buiding_autonomous_driving_network.pptx",
+        "slides_url": "files/2019/ai_buiding_autonomous_driving_network.pdf",
     },
     {
         "title": "异常检测在苏宁的实践",
