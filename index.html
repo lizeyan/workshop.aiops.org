@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workshop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="images/favicon.jpg"/>
+</head>
+<body>
+
+<div class="pb-2 mt-4 mb-2 border-bottom main-center">
+    <h2>AIOPS WORKSHOP</h2>
+</div>
+<div id="workshop-schedule-div">
+    <div id="contents-div" class="card main-center">
+        <h3 class="card-title text-center">Contents</h3>
+        <div class="card-body">
+            <ul class="list-group">
+                <li class="list-group.item" v-for="workshop in workshops">
+                    <a :href="'#' + workshop.name + '-div'">{{
+                        workshop.name }}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div :id="workshop.name + '-div'" class="main-center card mt-1" v-for="workshop in workshops">
+        <h4 class="card-title text-center">{{ workshop.name }}, {{workshop.date }}</h4>
+        <workshop-schedule :items="workshop.data" class="card-body"></workshop-schedule>
+    </div>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
+
+<template id="template-workshop-schedule">
+    <ul class="list-group">
+        <li class="list-group-item" v-for="item in items">
+            <p v-if="'title' in item" class="font-weight-bold m-0 pd-1 pt-1">{{ item.title }}</p>
+            <p v-if="'publish' in item" class="m-1 p-0 publish">{{ item.publish }}</p>
+            <p v-if="'authors' in item" class="m-1 p-0 author">{{ item.authors }}</p>
+            <p v-if="'institutions' in item" class="m-1 p-0 institution">{{ item.institutions }}</p>
+            <a v-if="'slides_url' in item" :href="item.slides_url" class="btn btn-success btn-sm mt-2 plr-2"
+               role="button">Slides</a>
+            <p class="card-footer" v-if="'photo' in item">
+                <a :href='item.photo'>Photos</a>, password: {{ item.photo_password }}
+            </p>
+        </li>
+    </ul>
+</template>
+
+<script src="js/schedule.js"></script>
+<script src="js/workshop_schedule.js"></script>
+<script>
+    let app = new Vue({
+        el: "#workshop-schedule-div",
+        data: {
+            items: workshops,
+        }
+    });
+</script>
+</body>
+</html>

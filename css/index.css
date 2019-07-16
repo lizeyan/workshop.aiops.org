@@ -1,0 +1,16 @@
+.main-center {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+.author {
+    font-size: 1em;
+}
+
+.publish {
+    font-size: 1em;
+}
+
+.institution {
+    font-size: 0.8em;
+}
