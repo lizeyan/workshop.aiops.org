@@ -172,9 +172,96 @@ const aiops2nd_workshop = [
     }
 ]
 
-
+const aiops3nd_workshop = [
+    {
+        'title': "第一名 1st H3C AI Institute",
+        "authors": "张闯, 吴问天",
+        "institutions": "新华三AI研究院",
+        "slides_url": "2020/3-H3C AI Institute-张闯.pptx",
+    },
+    {
+        'title': "第二名 2nd 亚信科技智能运维",
+        'authors': "蒋炜, 朱诗逸, 王云鹏, 李国明, 陈静锋",
+        "institutions": "亚信科技 通信人工智能创新实验室",
+        "slides_url": "2020/5-亚信科技智能运维-朱诗逸.pptx",
+    },
+    {
+        'title': "第三名 3rd 掘金人",
+        'authors': "王林, 王鹏",
+        "institutions": "中国银行 信息科技运营中心 系统管理一团队",
+        "slides_url": "2020/1-掘金人-王鹏.pptx",
+    },
+    {
+        'title': "第四名 4th 一行bug",
+        'authors': "张世泽, 赵鋆峰",
+        "institutions": "清华大学网络科学与网络空间研究院",
+        "slides_url": "2020/4-一行bug-赵鋆峰.pptx",
+    },
+    {
+        'title': "第五名 5th bocoiops",
+        'authors': "陈晓峰, 崔世彬, 吴琼, 何宁, 李杰",
+        "institutions": "亿阳信通 技术架构部",
+        "slides_url": "2020/2-bocoiops-崔世彬.pptx",
+    },
+    {
+        'title': "第六名 6th benjili",
+        'authors': "李冕正, 卢冠男, 叶金瓒, 王国峰, 张紫婷, 薛文满",
+        "institutions": "微众银行-科技管理部",
+        "slides_url": "2020/6-benjili-薛文满.pptx",
+    },
+    {
+        "title": "智能化困境及未来方向探讨",
+        "authors": "应关祥",
+        "institutions": "华为技术有限公司2012实验室 认知技术实验室主任",
+        "slides_url": "2020/S1-1-应关祥-智能化困境及未来方向探讨（20200815）.pdf",
+    },
+    {
+        "title": "从2到1到0 浙江移动运维数字化转型探索",
+        "authors": "潘宇虹",
+        "institutions": "浙江移动信息技术部 AIOps及GOC负责人",
+        "slides_url": "2020/S1-2-潘宇虹-从2到1到0 （0815）.pptx",
+    },
+    {
+        "title": "构建可观察性数据中台",
+        "authors": "周琦",
+        "institutions": "阿里云计算技术总监",
+        "slides_url": "2020/S1-3周琦-构建可观察性的数据中台-1.pptx"
+    },
+    {
+        "title": "Diagnosing Root Causes of Intermittent Slow Queries in Cloud Databases",
+        "authors": "殷征 Zheng Yin",
+        "institutions": "阿里云云智能-数据库自治服务技术专家",
+        "slides_url": "2020/S2-1-殷征-iSQ_new.pptx",
+        "publish": "VLDB 2020"
+    },
+    {
+        "title": "Graph-based Trace Analysis for Microservice Architecture Understanding and Problem Diagnosis",
+        "authors": "李万雪",
+        "institutions": "ebay技术专家",
+        "slides_url": "2020/S2-2李万雪-GTMA.pptx",
+        "publish": "ESEC/FSE 2020 Industry"
+    },
+    {
+        "title": "必示科技2020年度告警数据挖掘方向顶会论文: 自适应的告警动态定级 && 告警风暴摘要 && 基于告警的事件预测",
+        "authors": "隋楷心",
+        "institutions": "必示科技 AIOps算法部总监",
+        "slides_url": "2020/S2-3-隋楷心.pptx",
+        "publish": "INFOCOM 2020 && ICSE SEIP 2020 && ESEC/FSE 2020"
+    },
+    {
+        "title": "圆桌会议预热: AIOps落地最后一公里",
+        "authors": "杜庆峰教授团队",
+        "institutions": "同济大学 软件学院 软件工程研究中心",
+        "slides_url": "2020/S3-1殷康璘-圆桌前-AIOps落地最后一公里.pptx"
+    },
+]
 
 const workshops = [
+    {
+        "name": "2020 AIOps挑战赛决赛 暨 第三届AIOps研讨会",
+        "date": "2020.8.15",
+        "data": aiops3nd_workshop,
+    },
     {
         "name": "2019 AIOps挑战赛决赛 暨 第二届AIOps研讨会",
         "date": "2019.7.13",
