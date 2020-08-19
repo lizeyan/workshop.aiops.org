@@ -242,7 +242,7 @@ const aiops3nd_workshop = [
         "slides_url": "2020/隋楷心-必示科技.pdf",
         "publish": "INFOCOM 2020 && ICSE SEIP 2020 && ESEC/FSE 2020"
     },
-]
+];
 
 const workshops = [
     {
