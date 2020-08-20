@@ -50,7 +50,7 @@
             <p v-if="'publish' in item" class="m-1 p-0 publish">{{ item.publish }}</p>
             <p v-if="'authors' in item" class="m-1 p-0 author">{{ item.authors }}</p>
             <p v-if="'institutions' in item" class="m-1 p-0 institution">{{ item.institutions }}</p>
-            <a v-if="'slides_url' in item" :href="'https://github.com/lizeyan/workshop.aiops.org/raw/master/files/' + item.slides_url" class="btn btn-success btn-sm mt-2 plr-2"
+            <a v-if="'slides_url' in item" :href="item.slides_url" class="btn btn-success btn-sm mt-2 plr-2"
                role="button">Slides</a>
             <p class="card-footer" v-if="'photo' in item">
                 <a :href='item.photo'>Photos</a>, password: {{ item.photo_password }}
