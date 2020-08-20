@@ -170,11 +170,86 @@ const aiops2nd_workshop = [
         "slides_url": "2019/multivariate_time_series.pdf",
         "publish": "KDD 2019"
     }
-]
+];
 
-
+const aiops3nd_workshop = [
+    {
+        'title': "第一名 1st H3C AI Institute",
+        "authors": "张闯, 吴问天",
+        "institutions": "新华三AI研究院",
+        "slides_url": "2020/3- AI Institute-H3C.pdf",
+    },
+    {
+        'title': "第二名 2nd 亚信科技智能运维",
+        'authors': "蒋炜, 朱诗逸, 王云鹏, 李国明, 陈静锋",
+        "institutions": "亚信科技 通信人工智能创新实验室",
+        "slides_url": "2020/5-亚信科技智能运维.pdf",
+    },
+    {
+        'title': "第三名 3rd 掘金人",
+        'authors': "王林, 王鹏",
+        "institutions": "中国银行 信息科技运营中心 系统管理一团队",
+        "slides_url": "2020/1-掘金人-中国银行.pdf",
+    },
+    {
+        'title': "第四名 4th 一行bug",
+        'authors': "张世泽, 赵鋆峰",
+        "institutions": "清华大学网络科学与网络空间研究院",
+        "slides_url": "2020/4-一行bug-清华大学.pdf",
+    },
+    {
+        'title': "第五名 5th bocoiops",
+        'authors': "陈晓峰, 崔世彬, 吴琼, 何宁, 李杰",
+        "institutions": "亿阳信通 技术架构部",
+        "slides_url": "2020/2-bocoiops-亿阳信通.pdf",
+    },
+    {
+        'title': "第六名 6th benjili",
+        'authors': "李冕正, 卢冠男, 叶金瓒, 王国峰, 张紫婷, 薛文满",
+        "institutions": "微众银行-科技管理部",
+        "slides_url": "2020/6-benjili-微众银行.pdf",
+    },
+    {
+        "title": "从2到1到0 浙江移动运维数字化转型探索",
+        "authors": "潘宇虹",
+        "institutions": "浙江移动信息技术部 AIOps及GOC负责人",
+        "slides_url": "2020/S1-2-潘宇虹-从2到1到0 （0815）.pdf",
+    },
+    {
+        "title": "构建可观察性数据中台",
+        "authors": "周琦",
+        "institutions": "阿里云计算技术总监",
+        "slides_url": "2020/S1-3周琦-构建可观察性的数据中台-1.pdf"
+    },
+    {
+        "title": "Diagnosing Root Causes of Intermittent Slow Queries in Cloud Databases",
+        "authors": "殷征 Zheng Yin",
+        "institutions": "阿里云云智能-数据库自治服务技术专家",
+        "slides_url": "2020/殷征-阿里云.pdf",
+        "publish": "VLDB 2020"
+    },
+    {
+        "title": "Graph-based Trace Analysis for Microservice Architecture Understanding and Problem Diagnosis",
+        "authors": "李万雪",
+        "institutions": "ebay技术专家",
+        "slides_url": "2020/李万雪-eBay.pdf",
+        "publish": "ESEC/FSE 2020 Industry"
+    },
+    {
+        "title": "必示科技2020年度告警数据挖掘方向顶会论文: 自适应的告警动态定级 && 告警风暴摘要 && 基于告警的事件预测",
+        "authors": "隋楷心",
+        "institutions": "必示科技 AIOps算法部总监",
+        "slides_url": "2020/隋楷心-必示科技.pdf",
+        "publish": "INFOCOM 2020 && ICSE SEIP 2020 && ESEC/FSE 2020"
+    },
+];
 
 const workshops = [
+    {
+        "name": "2020 AIOps挑战赛决赛 暨 第三届AIOps研讨会",
+        "date": "2020.8.15",
+        "data": aiops3nd_workshop,
+    },
     {
         "name": "2019 AIOps挑战赛决赛 暨 第二届AIOps研讨会",
         "date": "2019.7.13",
