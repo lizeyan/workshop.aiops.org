@@ -97,6 +97,10 @@ const aiops1st_workshop = [
     {
         "photo": "https://pan.baidu.com/s/1y9h2u79DU-ZvGLa5kLlayQ",
         "photo_password": "fsdk"
+    },
+    {
+        "files": "https://pan.baidu.com/s/1QWxvrUR4AlmikCMKtFH0dw",
+        "password": "fbq9"
     }
 ];
 
@@ -169,6 +173,10 @@ const aiops2nd_workshop = [
         "institutions": "清华大学 博士生",
         "slides_url": "2019/multivariate_time_series.pdf",
         "publish": "KDD 2019"
+    },
+    {
+        "files": "https://pan.baidu.com/s/1QWxvrUR4AlmikCMKtFH0dw",
+        "password": "fbq9"
     }
 ];
 
@@ -242,22 +250,26 @@ const aiops3nd_workshop = [
         "slides_url": "2020/隋楷心-必示科技.pdf",
         "publish": "INFOCOM 2020 && ICSE SEIP 2020 && ESEC/FSE 2020"
     },
+    {
+        "files": "https://pan.baidu.com/s/1QWxvrUR4AlmikCMKtFH0dw",
+        "password": "fbq9"
+    }
 ];
 
 const workshops = [
     {
         "name": "2020 AIOps挑战赛决赛 暨 第三届AIOps研讨会",
         "date": "2020.8.15",
-        "data": aiops3nd_workshop,
+        "data": aiops3nd_workshop
     },
     {
         "name": "2019 AIOps挑战赛决赛 暨 第二届AIOps研讨会",
         "date": "2019.7.13",
-        "data": aiops2nd_workshop,
+        "data": aiops2nd_workshop
     },
     {
         "name": "2018 AIOps挑战赛决赛 暨 首届AIOps研讨会",
         "date": "2018.5.19",
-        "data": aiops1st_workshop,
-    },
+        "data": aiops1st_workshop
+    }
 ];
