@@ -53,7 +53,7 @@
                 <a :href='item.photo'>Photos</a>, password: {{ item.photo_password }}
             </p>
             <p class="card-footer" v-if="'files' in item">
-                如果因为网络原因直接从上面的GitHub链接下载文件，可以通过百度网盘访问打包后的所有文件<a :href='item.files'>Files</a>, password: {{ item.password }}
+                若因网络原因无法直接从GitHub链接下载，可直接下载打包后的所有文件<a :href='item.files'>Files</a>, password: {{ item.password }}
             </p>
         </li>
     </ul>
