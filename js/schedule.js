@@ -182,6 +182,12 @@ const aiops2nd_workshop = [
 
 const aiops3nd_workshop = [
     {
+        'title': "微服务应用系统故障发现和根因定位-AIOPS挑战赛回顾",
+        "authors": "陈鹏飞",
+        "institutions": "中山大学, 数据科学与计算机学院",
+        "slides_url": "2020/0-陈鹏飞-2020AIOPsChallenge-现场答辩.pdf",
+    },
+    {
         'title': "第一名 1st H3C AI Institute",
         "authors": "张闯, 吴问天",
         "institutions": "新华三AI研究院",
