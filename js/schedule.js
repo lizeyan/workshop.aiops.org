@@ -262,7 +262,67 @@ const aiops3nd_workshop = [
     }
 ];
 
+const aiops4nd_workshop = [
+    {
+        'title': "冠军 LR-AIOps",
+        "authors": "",
+        "institutions": "联想研究院ECR LAB",
+        "slides_url": "2021/LR-AIOps.pdf",
+    },
+    {
+        'title': "亚军 铃动时序智能",
+        "authors": "",
+        "institutions": "阿里巴巴达摩院&云数据库、浙江大学、大连理工大学",
+        "slides_url": "2021/铃动时序智能.pdf",
+    },
+    {
+        'title': "亚军 一行bug",
+        "authors": "",
+        "institutions": "清华大学网络科学与网络空间研究院",
+        "slides_url": "2021/一行bug.pdf",
+    },
+    {
+        'title': "亚军 pa_tech",
+        "authors": "",
+        "institutions": "平安科技运营工具平台团队和平安科技混合增强算法团队",
+        "slides_url": "2021/pa_tech.pdf",
+    },
+    {
+        'title': "季军 宝兰德",
+        "authors": "",
+        "institutions": "宝兰德软件股份有限公司研发部",
+        "slides_url": "2021/宝兰德.pdf",
+    },
+    {
+        'title': "季军 一轮游",
+        "authors": "",
+        "institutions": "交通银行数据中心",
+        "slides_url": "2021/一轮游.pdf",
+    },
+    {
+        'title': "优秀奖 伊莉丝·逐星",
+        "authors": "",
+        "institutions": "北京大学软件与微电子学院",
+        "slides_url": "2021/伊莉丝·逐星.pdf",
+    },
+    {
+        'title': "优秀奖 bocoiops",
+        "authors": "",
+        "institutions": "亿阳信通技术架构部",
+        "slides_url": "2021/bocoiops.pdf",
+    },
+    {
+        "files": "https://pan.baidu.com/s/1QWxvrUR4AlmikCMKtFH0dw",
+        "password": "fbq9"
+    }
+];
+
 const workshops = [
+    {
+        "name": "2021 AIOps挑战赛决赛 暨 第四届AIOps研讨会",
+        "date": "2021.5.13",
+        "data": aiops4nd_workshop
+    }
     {
         "name": "2020 AIOps挑战赛决赛 暨 第三届AIOps研讨会",
         "date": "2020.8.15",
