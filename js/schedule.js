@@ -322,7 +322,7 @@ const workshops = [
         "name": "2021 AIOps挑战赛决赛 暨 第四届AIOps研讨会",
         "date": "2021.5.13",
         "data": aiops4nd_workshop
-    }
+    },
     {
         "name": "2020 AIOps挑战赛决赛 暨 第三届AIOps研讨会",
         "date": "2020.8.15",
