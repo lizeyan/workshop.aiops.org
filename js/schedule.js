@@ -317,7 +317,73 @@ const aiops4nd_workshop = [
     }
 ];
 
+const aiops5nd_workshop = [
+    {
+        'title': "冠军 Hi战队",
+        "authors": "",
+        "institutions": "华为技术有限公司",
+        "slides_url": "2022/Hi战队.pdf",
+    },
+    {
+        'title': "亚军 浦智运维团队",
+        "authors": "",
+        "institutions": "浦发银行信用卡中心",
+        "slides_url": "2021/浦智运维战队.pdf",
+    },
+    {
+        'title': "亚军 翼起飞",
+        "authors": "",
+        "institutions": "天翼云科技有限公司",
+        "slides_url": "2021/翼起飞.pdf",
+    },
+    {
+        'title': "季军 JustDo",
+        "authors": "",
+        "institutions": "中兴通讯股份有限公司",
+        "slides_url": "2021/JustDo.pdf",
+    },
+    {
+        'title': "季军 中南-天云",
+        "authors": "",
+        "institutions": "中南大学、天云软件技术有限公司",
+        "slides_url": "2021/中南-天云.pdf",
+    },
+    {
+        'title': "季军 AeroSpaceX",
+        "authors": "",
+        "institutions": "华为技术有限公司",
+        "slides_url": "2021/AeroSpaceX.pdf",
+    },
+    {
+        'title': "优秀奖 ABC_AIOPS",
+        "authors": "",
+        "institutions": "中国农业银行研发中心",
+        "slides_url": "2021/ABC_AIOPS.pdf",
+    },
+    {
+        'title': "优秀奖 pa_tech_22",
+        "authors": "",
+        "institutions": "平安科技（深圳）有限公司",
+        "slides_url": "2021/pa_tech_22.pdf",
+    },
+    {
+        'title': "优秀奖 benjili20224109",
+        "authors": "",
+        "institutions": "微众银行",
+        "slides_url": "2021/benjili.pdf",
+    },
+    {
+        "files": "https://pan.baidu.com/s/1QWxvrUR4AlmikCMKtFH0dw",
+        "password": "fbq9"
+    }
+];
+
 const workshops = [
+    {
+        "name": "2022 AIOps挑战赛决赛 暨 第五届AIOps研讨会",
+        "date": "2021.8.13",
+        "data": aiops5nd_workshop
+    },
     {
         "name": "2021 AIOps挑战赛决赛 暨 第四届AIOps研讨会",
         "date": "2021.5.13",
